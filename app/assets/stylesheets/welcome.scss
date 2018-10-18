@@ -1,3 +1,88 @@
 // Place all the styles related to the welcome controller here.
 // They will automatically be included in application.css.
 // You can use Sass (SCSS) here: http://sass-lang.com/
+.social-btn {
+    font-family: Bradley Hand;
+    text-transform: uppercase;
+    -webkit-webkit-transition: all 0s ease ;
+    -moz-webkit-transition: all 0s ease;
+    -ms-webkit-transition: all 0s ease;
+    -o-webkit-transtion: all 0s ease;
+    transition: all 0s ease ;
+    background: #0074d9;
+    border: solid 1px #000;
+    position: relative;
+    top: 15px;
+    left: 0px;
+    width: 100px;
+    text-align: center;
+    padding: 5 5 5 5;
+    height: 25px;
+
+}
+.social-btn:hover {
+  -webkit-filter: blur(1px);
+  color: yellow;
+  animation: pulse 9s infinite;
+
+    background-color: #dbff33;
+    -webkit-box-shadow: 1 1 140px #ff0000;
+    -webkit-border-radius: 3px;
+    border-radius: 50px;
+    border: none;
+    cursor: pointer;
+
+    padding: 5px 10px;
+
+    text-decoration: none;
+    -webkit-animation: glowing 1500ms infinite;
+    -moz-animation: glowing 1500ms infinite;
+    -o-animation: glowing 1500ms infinite;
+    animation: glowing 1500ms infinite;
+
+  // opacity: 0.85;
+}
+.social-btn {
+  flex: 1;
+    -webkit-border-radius: 3px;
+    border-radius: 50px;
+    border: none;
+    cursor: pointer;
+
+    padding: 5px 10px;
+
+    text-decoration: none;
+    -webkit-animation: glowing 1500ms infinite;
+    -moz-animation: glowing 1500ms infinite;
+    -o-animation: glowing 1500ms infinite;
+    animation: glowing 1500ms infinite;
+    @-webkit-keyframes glowing {
+      0% {
+        background-color: yellow;
+        -webkit-box-shadow: 0 0 3px #b20000;
+      }
+      50% {
+        background-color: #dbff33;
+        -webkit-box-shadow: 0 0 40px #ff0000;
+      }
+      100% {
+        background-color: blue;
+        -webkit-box-shadow: 0 0 3px #b20000;
+      }
+    }
+}
+
+@-webkit-keyframes glowing {
+  0% {
+    background-color: #d6c5c5;
+    -webkit-box-shadow: 0 0 3px #b20000;
+  }
+  50% {
+    background-color: hotpink;
+    -webkit-box-shadow: 0 0 40px #ff0000;
+  }
+  100% {
+    background-color: #82e276;
+    -webkit-box-shadow: 0 0 3px #b20000;
+  }
+}
