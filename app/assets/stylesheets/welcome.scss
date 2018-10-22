@@ -21,6 +21,7 @@
 
 }
 .social-btn:hover {
+  -webkit-tap-highlight-color: transparent;
   -webkit-filter: blur(1px);
   color: yellow;
   animation: pulse 9s infinite;
