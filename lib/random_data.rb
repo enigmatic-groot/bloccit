@@ -10,6 +10,7 @@ module RandomData
     sentences.join(" ")
   end
 
+
 # #7
   def self.random_sentence
     strings = []
